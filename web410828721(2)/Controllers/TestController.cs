@@ -13,5 +13,11 @@ namespace web410828721_2_.Controllers
         {
             return View();
         }
+
+        public ActionResult HW3()
+        {
+            ViewBag.poka = "Hello";
+            return View();
+        }
     }
 }
