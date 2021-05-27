@@ -3,7 +3,15 @@
     ViewBag.Title = "HW2";
 }
 
-<h2>HW2</h2>
+<p>印出1-10</p>
+@for (int i = 1; i <= 10; i++)
+{
+    <p>@i</p>
+}
+
+
+
+<h2>HW2 @DateTime.Now</h2>
 
 <p>姓名: @Html.TextBox("name")</p>
 <p>帳號: @Html.TextBox("account")</p>
@@ -23,3 +31,5 @@
     自我介紹:
     @Html.TextArea("about")
 </p>
+
+
