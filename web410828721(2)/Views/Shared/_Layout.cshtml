@@ -20,11 +20,13 @@
                 @Html.ActionLink("應用程式名稱", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
+                <a href="~/Controllers/TestController.cs">~/Controllers/TestController.cs</a>
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("首頁", "Index", "Home")</li>
                     <li>@Html.ActionLink("關於", "About", "Home")</li>
                     <li>@Html.ActionLink("連絡人", "Contact", "Home")</li>
                     <li>@Html.ActionLink("喝水量計算", "Index", "Water")</li>
+                    <li>@Html.ActionLink("會員註冊", "SignUp", "User")</li>
                 </ul>
             </div>
         </div>
